@@ -24,7 +24,10 @@ export default function Dictionary() {
   }
   return (
     <div>
-      <form onSubmit={handleSubmit} className="d-flex justify-content-center">
+      <form
+        onSubmit={handleSubmit}
+        className="d-flex gap-1 justify-content-center"
+      >
         <input
           type="search"
           autoFocus

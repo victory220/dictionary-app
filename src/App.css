@@ -8,3 +8,38 @@
   margin: 0 auto;
   margin-bottom: 30px;
 }
+
+.Meaning .indent {
+  position: relative;
+  left: 50px;
+}
+
+.Meaning .part-of-speech {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.Meaning .example {
+  position: relative;
+  left: 20px;
+  font-style: italic;
+  color: cornflowerblue;
+}
+
+.Synonyms {
+  position: relative;
+  left: 20px;
+}
+
+.Synonyms {
+  list-style: none;
+  color: chocolate;
+  line-height: 2rem;
+}
+
+.Synonyms .element {
+  padding: 0px 5px 3px 5px;
+  border: solid 1px chocolate;
+  border-radius: 10px;
+  margin-left: 10px;
+}
