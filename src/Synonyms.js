@@ -4,16 +4,15 @@ export default function Synonyms(props) {
   if (props.synonyms.length !== 0) {
     return (
       <div className="Synonyms">
-        <span>Synonyms:</span>
-        <span>
+        <div className="d-flex flex-wrap gap-2 similar">
           {props.synonyms.map(function (synonym, index) {
             return (
-              <span key={index} className="element">
+              <div key={index} className="element">
                 {synonym}
-              </span>
+              </div>
             );
           })}
-        </span>
+        </div>
       </div>
     );
   } else {

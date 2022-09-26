@@ -32,14 +32,19 @@
 }
 
 .Synonyms {
+  margin-top: 10px;
   list-style: none;
   color: chocolate;
-  line-height: 2rem;
+}
+
+.Synonyms .similar::before {
+  content: "Synonyms:";
+  color: chocolate;
 }
 
 .Synonyms .element {
   padding: 0px 5px 3px 5px;
   border: solid 1px chocolate;
   border-radius: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
