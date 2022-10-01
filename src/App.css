@@ -1,9 +1,11 @@
+html {
+  min-height: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(
-    rgba(162, 247, 241, 0.7),
-    rgba(199, 146, 255, 0.7)
-  );
+  background: no-repeat
+    linear-gradient(rgba(162, 247, 241, 0.7), rgba(199, 146, 255, 0.7));
 }
 
 .App {
@@ -22,12 +24,6 @@ body {
   font-style: italic;
 }
 
-@media (max-width: 1000px) {
-  .App .custom-container {
-    width: 90%;
-  }
-}
-
 .App-logo {
   max-width: 200px;
   display: block;
@@ -43,6 +39,10 @@ body {
 
 .Dictionary form {
   margin-bottom: 20px;
+}
+
+.Dictionary .form-control {
+  width: 250px !important;
 }
 
 .Meaning .indent {
@@ -86,4 +86,10 @@ body {
 .Phonetic {
   color: chocolate;
   font-size: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+  .App .custom-container {
+    width: 90%;
+  }
 }

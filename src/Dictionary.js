@@ -33,7 +33,7 @@ export default function Dictionary() {
           type="search"
           autoFocus
           onChange={handleChange}
-          className="form-control w-25"
+          className="form-control"
         />
         <input type="submit" className="btn btn-primary" />
       </form>
