@@ -11,7 +11,11 @@ function App() {
       </div>
       <footer className="text-center mt-3">
         Coded by{" "}
-        <a href="https://github.com/victory220/dictionary-app" target="_blank">
+        <a
+          href="https://github.com/victory220/dictionary-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           Viktoriia Rudnytska
         </a>
       </footer>
