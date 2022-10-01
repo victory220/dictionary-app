@@ -1,5 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    rgba(162, 247, 241, 0.7),
+    rgba(199, 146, 255, 0.7)
+  );
+}
+
 .App {
   margin-top: 30px;
+}
+
+.App .custom-container {
+  background: white;
+  opacity: 0.9;
+  max-width: 900px;
+}
+
+.App footer {
+  margin-bottom: 20px;
+  color: #333;
+  font-style: italic;
+}
+
+@media (max-width: 1000px) {
+  .App .custom-container {
+    width: 90%;
+  }
 }
 
 .App-logo {
@@ -9,9 +35,19 @@
   margin-bottom: 30px;
 }
 
+.Dictionary h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.Dictionary form {
+  margin-bottom: 20px;
+}
+
 .Meaning .indent {
-  position: relative;
-  left: 50px;
+  margin-left: 50px;
+  width: fit-content;
 }
 
 .Meaning .part-of-speech {
@@ -20,15 +56,13 @@
 }
 
 .Meaning .example {
-  position: relative;
-  left: 20px;
+  margin-left: 20px;
   font-style: italic;
   color: cornflowerblue;
 }
 
 .Synonyms {
-  position: relative;
-  left: 20px;
+  margin-left: 20px;
 }
 
 .Synonyms {

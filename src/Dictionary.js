@@ -23,7 +23,8 @@ export default function Dictionary() {
     setWord(event.target.value);
   }
   return (
-    <div>
+    <div className="Dictionary">
+      <h1>What word do you want to look up?</h1>
       <form
         onSubmit={handleSubmit}
         className="d-flex gap-1 justify-content-center"
