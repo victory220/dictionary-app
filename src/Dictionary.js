@@ -50,7 +50,7 @@ export default function Dictionary() {
           onChange={handleChange}
           className="form-control"
         />
-        <input type="submit" className="btn btn-primary" />
+        <input type="submit" value="search" className="btn btn-primary" />
       </form>
       <Results results={results} />
       <Photos photos={photos} word={word} />
